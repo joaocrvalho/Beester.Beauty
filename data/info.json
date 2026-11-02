@@ -67,8 +67,8 @@
     "titulo": "Serviços adicionais",
     "subtitulo": "Complete o seu atendimento",
     "itens": [
-      { "nome": "Design", "valor": 35 },
-      { "nome": "Design com Henna", "valor": 45 },
+      { "nome": "Design", "valor": 15 },
+      { "nome": "Design com Henna", "valor": 20 },
       { "nome": "Buço", "valor": 10 },
       { "nome": "Spa Labial", "valor": 30 }
     ]
