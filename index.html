@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Beester Beauty: maquiagem social, para madrinhas e para noivas. Agende o seu horário.">
+    <title>Beester Beauty</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Lora:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="topo" id="topo">
+        <div class="container topo__barra">
+            <a href="#inicio" class="marca" id="marca-logo" aria-label="Início"></a>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="menu" id="menu" aria-label="Principal"></nav>
+            <a href="#" class="btn btn--pequeno topo__cta" data-whatsapp>Agendar</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="container hero__grade">
+                <div class="hero__texto">
+                    <h1 id="hero-titulo"></h1>
+                    <p id="hero-subtitulo"></p>
+                    <a href="#" class="btn" id="hero-botao" data-whatsapp></a>
+                </div>
+                <figure class="moldura hero__foto" id="hero-foto"></figure>
+            </div>
+        </section>
+
+        <section class="secao" id="servicos">
+            <div class="container">
+                <header class="secao__cab">
+                    <h2 id="servicos-titulo"></h2>
+                    <p id="servicos-subtitulo"></p>
+                </header>
+                <div class="cards" id="servicos-lista"></div>
+            </div>
+        </section>
+
+        <section class="secao secao--faixa" id="informacoes">
+            <div class="container">
+                <div class="aviso">
+                    <span class="aviso__icone" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+                    </span>
+                    <div>
+                        <h2 id="atendimento-titulo"></h2>
+                        <p id="atendimento-texto"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao" id="noivas">
+            <div class="container noivas__grade">
+                <figure class="moldura moldura--inversa noivas__foto" id="noivas-foto"></figure>
+                <div class="noivas__texto">
+                    <h2 id="noivas-titulo"></h2>
+                    <div id="noivas-paragrafos"></div>
+                    <div class="previa">
+                        <span id="previa-rotulo"></span>
+                        <strong id="previa-valor"></strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao secao--faixa" id="adicionais">
+            <div class="container">
+                <header class="secao__cab">
+                    <h2 id="adicionais-titulo"></h2>
+                    <p id="adicionais-subtitulo"></p>
+                </header>
+                <ul class="lista-preco" id="adicionais-lista"></ul>
+                <div class="aviso aviso--simples">
+                    <span class="aviso__icone" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>
+                    </span>
+                    <div>
+                        <h3 id="domicilio-titulo"></h3>
+                        <p id="domicilio-texto"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="chamada" id="contato">
+            <div class="container chamada__caixa">
+                <h2 id="chamada-titulo"></h2>
+                <p id="chamada-texto"></p>
+                <a href="#" class="btn btn--claro" id="chamada-botao" data-whatsapp></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container rodape__conteudo">
+            <div class="marca marca--clara" id="rodape-logo"></div>
+            <p id="rodape-descricao"></p>
+            <a href="#" class="rodape__social" id="rodape-instagram" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.8" fill="currentColor"/></svg>
+            </a>
+        </div>
+    </footer>
+
+    <button class="subir" id="subir" aria-label="Voltar ao topo" hidden>
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"/></svg>
+    </button>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

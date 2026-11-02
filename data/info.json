@@ -1,0 +1,88 @@
+{
+  "marca": {
+    "nome": "Beester Beauty",
+    "subtitulo": "Sobrancelhas & Makeup",
+    "descricao": "Maquiagem social, para madrinhas e para noivas",
+    "whatsapp": "5515991416665",
+    "mensagemWhatsapp": "Olá! Gostaria de agendar uma maquiagem com a Beester Beauty.",
+    "instagram": "https://www.instagram.com/beester.beauty"
+  },
+  "menu": [
+    { "rotulo": "Serviços", "alvo": "#servicos" },
+    { "rotulo": "Noivas", "alvo": "#noivas" },
+    { "rotulo": "Adicionais", "alvo": "#adicionais" },
+    { "rotulo": "Informações", "alvo": "#informacoes" }
+  ],
+  "hero": {
+    "titulo": "Maquiagem para realçar a sua beleza em cada ocasião",
+    "subtitulo": "Atendimento cuidadoso, com tempo e atenção aos detalhes, para você se sentir confiante em eventos, festas e no dia do casamento.",
+    "botao": "Agendar atendimento",
+    "imagem": "assets/img/beatriz.avif",
+    "imagemAlt": "Maquiadora da Beester Beauty"
+  },
+  "servicos": {
+    "titulo": "Maquiagem",
+    "subtitulo": "Escolha o atendimento ideal para a sua ocasião",
+    "itens": [
+      {
+        "nome": "Maquiagem Social",
+        "descricao": "Para festas, formaturas, jantares e eventos especiais.",
+        "valor": 150,
+        "icone": "sparkle"
+      },
+      {
+        "nome": "Maquiagem Madrinha",
+        "descricao": "Acabamento pensado para durar e fotografar bem durante toda a cerimônia.",
+        "valor": 200,
+        "icone": "heart"
+      },
+      {
+        "nome": "Maquiagem Noiva",
+        "descricao": "Atendimento personalizado para o dia mais importante.",
+        "valor": 300,
+        "icone": "crown",
+        "destaque": true
+      }
+    ]
+  },
+  "atendimento": {
+    "titulo": "Sobre os atendimentos de maquiagem",
+    "texto": "Cada atendimento de maquiagem tem duração média de 2h a 2h30. Por isso, recomendo que o agendamento seja realizado com antecedência, garantindo o tempo necessário para executar cada etapa com tranquilidade, atenção aos detalhes e excelência no resultado.",
+    "duracao": "2h a 2h30"
+  },
+  "noivas": {
+    "titulo": "Maquiagem para noivas",
+    "paragrafos": [
+      "Por ser um atendimento mais delicado e personalizado, recomendo a realização de uma prévia de maquiagem, antes do grande dia.",
+      "Esse momento é essencial para alinhar preferências, testar possibilidades e definir todos os detalhes, garantindo mais segurança e tranquilidade no dia do casamento."
+    ],
+    "previa": {
+      "rotulo": "Investimento adicional da prévia",
+      "valor": 150
+    },
+    "imagem": "assets/img/noiva.avif",
+    "imagemAlt": "Maquiagem de noiva"
+  },
+  "adicionais": {
+    "titulo": "Serviços adicionais",
+    "subtitulo": "Complete o seu atendimento",
+    "itens": [
+      { "nome": "Design", "valor": 35 },
+      { "nome": "Design com Henna", "valor": 45 },
+      { "nome": "Buço", "valor": 10 },
+      { "nome": "Spa Labial", "valor": 30 }
+    ]
+  },
+  "domicilio": {
+    "titulo": "Atendimento a domicílio",
+    "texto": "Se o atendimento for realizado a domicílio, há cobrança de taxa de deslocamento."
+  },
+  "chamada": {
+    "titulo": "Reserve o seu horário",
+    "texto": "Fale comigo pelo WhatsApp e garanta a sua data com antecedência.",
+    "botao": "Chamar no WhatsApp"
+  },
+  "rodape": {
+    "direitos": "Todos os direitos reservados."
+  }
+}
